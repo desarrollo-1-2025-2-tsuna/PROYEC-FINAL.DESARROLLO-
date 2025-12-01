@@ -1,0 +1,51 @@
+/* Fondo general oscuro */
+body {
+    background-color: #0e0e0e !important;
+    color: #e5e5e5 !important;
+    font-family: 'Segoe UI', Roboto, sans-serif !important;
+}
+
+/* Panel principal */
+.swagger-ui .topbar {
+    background-color: #111 !important;
+    border-bottom: 1px solid #00e676 !important;
+}
+
+/* Título */
+.swagger-ui .topbar .download-url-wrapper {
+    display: none !important;
+}
+
+.swagger-ui .topbar h2 {
+    color: #00e676 !important;
+    font-size: 28px !important;
+}
+
+/* Tarjetas */
+.swagger-ui .opblock {
+    background: #111 !important;
+    border: 1px solid #00e676 !important;
+    border-radius: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+/* Texto */
+.swagger-ui * {
+    color: white !important;
+}
+
+/* Botones */
+.opblock-summary-method {
+    background-color: #00e676 !important;
+    color: black !important;
+    border-radius: 5px !important;
+}
+
+.btn {
+    background-color: #00e676 !important;
+    color: black !important;
+}
+.swagger-ui .topbar .link img {
+    content: url('/static/logo.png') !important;
+    width: 120px;
+}
